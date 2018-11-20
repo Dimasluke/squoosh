@@ -15,7 +15,7 @@ const WorkerPlugin = require('worker-plugin');
 const AutoSWPlugin = require('./config/auto-sw-plugin');
 const CrittersPlugin = require('critters-webpack-plugin');
 const AssetTemplatePlugin = require('./config/asset-template-plugin');
-
+/* Hello */
 function readJson (filename) {
   return JSON.parse(fs.readFileSync(filename));
 }
